@@ -1,0 +1,69 @@
+/* 기본 스타일 */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #282c34;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* 전체 컨테이너 */
+#container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  width: 90%;
+  height: 90%;
+  background-color: #1e1e1e;
+}
+
+/* 각 섹션 스타일 */
+.section {
+  padding: 20px;
+  border-radius: 5px;
+  overflow: auto;
+}
+
+#problem-section {
+  background-color: #333;
+}
+
+#editor-section {
+  background-color: #1e1e1e;
+}
+
+#output-section {
+  background-color: #333;
+}
+
+/* 코드 편집기 스타일 */
+#editor {
+  width: 100%;
+  height: 300px;
+  background-color: #2d2d2d;
+  color: #d4d4d4;
+  padding: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  border: none;
+  border-radius: 5px;
+}
+
+/* 버튼 스타일 */
+#run-button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #61dafb;
+  border: none;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#run-button:hover {
+  background-color: #21a1f1;
+}
